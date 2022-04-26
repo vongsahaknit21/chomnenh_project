@@ -1,0 +1,371 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  }
+  .header{
+    background-color: #ECD2FA;
+    height: 110px;
+    z-index: 1000px;
+  }
+  .logo{
+    margin-top: 0px;
+    
+  }
+  .logo img{
+    margin-top: 10px;
+    margin-left: 150px;
+  }
+  .header-1{
+  height: 300px;
+  }
+  .header-2{
+    background-color: #5a47ab;     
+  }
+  .header-slide{
+    margin-top: 90px;
+    position: relative;
+  }
+  .menu{
+    margin-top: 30px;
+    padding-left: 185px;
+    float: left;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 50px;
+    border-right: solid 1px black;
+    
+  }
+  .menu ul{
+     list-style-type: none;
+     margin:0px;
+     padding: 0px;
+  }
+  .menu ul li{
+     float: left;
+     position: relative;
+  }
+  .menu ul li a{
+     display: block;
+     color: black;
+     padding: 25px;
+     font-family: content;
+     font-size: 19px;
+     font-style: bold;
+     text-decoration: none;
+  }
+  .menu ul li a:hover{
+     color: #FB2E86;
+  }
+  .botton-header{
+    
+    margin-top: 9px;
+    position: relative;
+    top: 20px;
+    justify-content: flex-end;
+    height: 200px;
+  
+  }
+  .btnsign_in_out {
+    
+    padding: 12px 40px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #FB2E86;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .btnsign_in_out::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+   
+   .btnsign_in_out:hover {
+    color: #e8e8e8;
+   }
+   
+   .btnsign_in_out:hover::before {
+    width: 100%;
+   }
+  
+  .btnsearch{
+    height: 35px;
+    background-color: #FB2E86;
+    margin-top: 8px;
+  }
+  
+  .main-screen{
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+  }
+  .input-box{
+    width: 40%;
+    height: 100%;
+  
+  }
+  .search-btn{
+    width: 10%;
+    height: 100%;
+  
+  }
+  .signin-out-btn{
+    width: 50%;
+    height: 100%;
+    margin-top: 1px;
+  }
+/* //////////////////////////////////////////////////////////////////////////////////// */
+.contact-header{
+    height: 200px;
+    background-color: #EEEFFB;
+    position: relative;
+    margin-top: 110px;
+}
+.contact-header .content{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 150px;
+
+}
+.contact-header .content h2{
+ font-size: 25px;
+ font-style: bold;
+ font-family: content;   
+}
+
+.information{
+    height: 300px;
+}
+.information .row{
+    width: 100%;
+    height: 100%;
+}
+.information .row .left{
+    width: 50%;
+    height: 100%;
+    padding: 0px;
+}
+.information .row .right{
+    width: 50%;
+    height: 100%;
+
+}
+
+.left .content{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+
+}
+.left .content h2{
+ font-size: 30px;
+ font-style: bold;
+ font-family: content;   
+}
+
+.left .content span{
+font-family: content;
+font-size: 15px;
+}
+.right{
+  margin-top: 20px;
+}
+.right .content{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.right .content .top{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .content .button{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.right .content .top .top1{
+    width: 49%;
+    height: 100%;
+
+}
+
+.top .top1 img{
+margin-top: 50px;
+}
+.top .top1 span{
+  margin-top: 60px;
+  margin-right: 170px;
+  float: right;
+}
+
+.top .top2 img{
+  margin-top: 50px;
+}
+.top .top2 span{
+  margin-top: 60px;
+  margin-right: 230px;
+  float: right;
+}
+.button .b1 img{
+  margin-top: 50px;
+  }
+  .button .b2 img{
+    margin-top: 50px;
+  }
+  .button .b1 span{
+    margin-top: 50px;
+    margin-right: 180px;
+    float: right;
+  }
+  .button .b2 span{
+    margin-top: 60px;
+    margin-right: 240px;
+    float: right;
+  }
+.right .content .top .top2{
+    width: 49%;
+    height: 100%;
+    
+    
+}
+.content span{
+
+
+}
+
+.right .content .button .b1{
+    width: 49%;
+    height: 100%;
+
+}
+.right .content .button .b2{
+    width: 49%;
+    height: 100%;
+
+}
+.right h2{
+    font-size: 30px;
+    font-style: bold;
+    font-family: content;  
+    margin-top: 22px;
+}
+
+
+.get-in-touch{
+  height: 500px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-form{
+  height: 100%;
+  width: 49%;
+}
+.side-image{
+  height: 100%;
+  width: 49%;
+}
+.side-form h2{
+font-size: 30px;
+font-family: content;
+font-style: bold;
+margin-left: 127px;
+}
+.side-form .text{
+  margin-left: 127px;
+}
+.side-form form{
+  margin-left: 127px;
+  margin-top: 50px;
+}
+.side-form form .name{
+  width: 200px;
+  height: 28px;
+  margin-right: 10px;
+}
+.side-form form .email{
+  width: 200px;
+  height: 28px;
+}
+.side-form form .product{
+  width: 412px;
+  height: 28px;
+  margin-top: 20px;
+ 
+}
+.side-form form .area{
+  margin-top: 25px;
+}
+.side-form form .btn-primary{
+  width: 124px;
+  height: 35px;
+  font-size: 15px;
+  font-family: helvetica;
+  background-color: #FB2E86;
+}
+
+
+.main-footer{
+  background-color:#ECD2FA;
+  height: 410px;
+}
+.footer-right-side .inside{
+padding-top: 20px;
+  
+}
+.footer-right-side .inside img{
+  margin-left: 140px;
+}
+.footer-right-side .text{
+  padding-left: 40px;
+  font-size: 13px;
+  
+}
+
+.footer-right1 h4{
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: bold;
+}
+.footer-right1 .inside .text{
+  margin-top: 37px;
+}
+
+.footer-right1 .inside{
+  padding-top:100px;
+  }
